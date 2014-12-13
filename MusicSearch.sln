@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSearch", "MusicSearch\MusicSearch.csproj", "{D862466D-61E3-4FCC-A138-802F44B90B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSearch.Test", "MusicSearch.Test\MusicSearch.Test.csproj", "{007DDFED-A87C-41E7-8EA8-48DD0494C9C9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MusicSearch.Database", "MusicSearch.Database\MusicSearch.Database.sqlproj", "{1AC4D721-C96E-4A30-9BD9-C62128B71AD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D862466D-61E3-4FCC-A138-802F44B90B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D862466D-61E3-4FCC-A138-802F44B90B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D862466D-61E3-4FCC-A138-802F44B90B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D862466D-61E3-4FCC-A138-802F44B90B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007DDFED-A87C-41E7-8EA8-48DD0494C9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007DDFED-A87C-41E7-8EA8-48DD0494C9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007DDFED-A87C-41E7-8EA8-48DD0494C9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007DDFED-A87C-41E7-8EA8-48DD0494C9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC4D721-C96E-4A30-9BD9-C62128B71AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC4D721-C96E-4A30-9BD9-C62128B71AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC4D721-C96E-4A30-9BD9-C62128B71AD8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1AC4D721-C96E-4A30-9BD9-C62128B71AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC4D721-C96E-4A30-9BD9-C62128B71AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC4D721-C96E-4A30-9BD9-C62128B71AD8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
