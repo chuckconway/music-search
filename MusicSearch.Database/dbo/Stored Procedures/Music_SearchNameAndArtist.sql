@@ -3,7 +3,7 @@
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE Music_SearchNameAndArtist 
+CREATE PROCEDURE [dbo].[Music_SearchNameAndArtist] 
 	-- Add the parameters for the stored procedure here
 (
 	@Term nvarchar(100)
@@ -17,7 +17,7 @@ BEGIN
     -- Insert statements for procedure here
 
 
-		Select M.Name, M.Artist, MAX(M.MusicId) as MusicId
+		Select Top 1000 M.Name, M.Artist, MAX(M.MusicId) as MusicId
 		From Music M
 		Where M.Name LIKE '%'+ @Term +'%' OR M.Artist LIKE '%'+ @Term +'%'
 		Group By Name, Artist

@@ -8,3 +8,15 @@
     CONSTRAINT [PK_Music] PRIMARY KEY CLUSTERED ([MusicId] ASC)
 );
 
+
+
+
+GO
+CREATE NONCLUSTERED INDEX [NonClusteredIndex-20170924-232442]
+    ON [dbo].[Music]([Artist] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [NonClusteredIndex-20170924-232346]
+    ON [dbo].[Music]([Name] ASC);
+
